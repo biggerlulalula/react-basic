@@ -2,7 +2,6 @@
 // app -> index.js -> public/index.html(root) 
 
 import React, { useState } from 'react';
-
 const count =100
 const list=[
 {
@@ -58,6 +57,8 @@ function App() {
   // setCount:更新变量的方法
   return (
     
+
+
     <div className="App">
       {/* 渲染列表 */}
       {/* 循环哪个结构就返回哪个结构 */}
@@ -107,6 +108,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
-
